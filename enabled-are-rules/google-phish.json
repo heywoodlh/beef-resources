@@ -12,7 +12,7 @@
       "options": {
         "xss_hook_url": "#{base_host}/demos/plain.html",
         "logout_gmail_interval": "10000",
-        "wait_seconds_before_redirect": "1000"
+        "wait_seconds_before_redirect": "0"
       }
     }
   ],
