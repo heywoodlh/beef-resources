@@ -15,5 +15,8 @@
         "wait_seconds_before_redirect": "1000"
       }
     }
-  ]
+  ],
+  "execution_order": [0],
+  "execution_delay": [0],
+  "chain_mode": "sequential"
 }
